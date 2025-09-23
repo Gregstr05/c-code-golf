@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <a href="https://github.com/Gregstr05"><img src="assets/images/github-mark-white.svg" height="20" alt="Github"></a>
+        <a href="https://github.com/Gregstr05/c-code-golf"><img src="assets/images/github-mark-white.svg" height="20" alt="Github"></a>
     </header>
 
     <h1>C Code Golf</h1>
