@@ -30,3 +30,140 @@ a {
     color: inherit;
     text-decoration: underline;
 }
+
+.upload-form {
+    margin: 20px 0;
+    padding: 20px;
+}
+        
+.result-container {
+    margin: 20px 0;
+}
+
+.code-with-numbers {
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    overflow-x: auto;
+    padding: 0;
+    border: 1px solid #444;
+}
+
+.code-line {
+    display: flex;
+    min-height: 1.4em;
+}
+
+.code-line:hover {
+    background-color: #2d2d2d;
+}
+
+.line-number {
+    background-color: #252526;
+    color: #858585;
+    padding: 0 12px;
+    text-align: right;
+    min-width: 45px;
+    flex-shrink: 0;
+    border-right: 1px solid #3e3e42;
+    user-select: none;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.code-content {
+    padding: 0 15px;
+    flex: 1;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+}
+
+.code-content code {
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: inherit;
+    font-size: inherit;
+    white-space: pre;
+    flex: 1;
+}
+
+.statement-count {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007acc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.error {
+    color: #d32f2f;
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 25px 0 8px 0;
+    color: #A9B7C6;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #A9B7C6;
+}
+
+.upload-form input[type="file"] {
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.upload-form button {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.upload-form button:hover {
+    background-color: #005a9e;
+}
+
+/* Custom highlight.js overrides for better integration */
+.hljs {
+    background: transparent !important;
+    color: #dcdcdc !important;
+}
+
+.hljs-keyword {
+    color: #569cd6 !important;
+}
+
+.hljs-string {
+    color: #ce9178 !important;
+}
+
+.hljs-comment {
+    color: #6a9955 !important;
+}
+
+.hljs-number {
+    color: #b5cea8 !important;
+}
+
+.hljs-type {
+    color: #4ec9b0 !important;
+}
