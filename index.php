@@ -32,6 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['code_file'])) {
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="assets/images/code_golf.webp"/> 
     <title>Code Golf</title>
 </head>
 <body>
